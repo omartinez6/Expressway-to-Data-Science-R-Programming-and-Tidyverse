@@ -1,0 +1,78 @@
+---
+title: "First Assignment"
+author: "Data"
+date: "06/05/2023"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Please complete all the tasks listed below. After completing the tasks download the .Rmd file and upload in the peer review item for grading.
+
+# Additionally please write text between the code chunks explaining what each code chunk is about.
+
+1.a bulleted list with sub-bullets under at least one item (10 pt)
+
+-   Item 1
+    -   Subitem 1.1
+    -   Subitem 1.2
+-   Item 2
+    -   Subitem 2.1
+    -   Subitem 2.2
+
+2.a numbered list (10 pt)
+
+1.  Item 1
+2.  Item 2
+3.  Item 3
+4.  Item 4
+
+3.some words italicized (5 pt)
+
+*This is my italized text*
+
+4.some words in bold print (5 pt)
+
+**This is my bold text**
+
+5.two levels of headers (10 pt)
+
+# This is my header 1
+
+## This is my header 2
+
+6.the results of some R code without showing the code (10 pt)
+
+```{r, echo=FALSE}
+print("This is my results without showing thw code")
+```
+
+7.a table of text at least 3 columns wide and 3 rows long (10 pt)
+
+| header 1 | header 2 | header 3 |
+|----------|----------|----------|
+| element  | element  | element  |
+| element  | element  | element  |
+| element  | element  | element  |
+
+8.a plot (show the code that generates the plot) (10 pt)
+```{r}
+library(datasets)
+data(cars)
+
+plot(cars, xlab = "Speed (mph)", ylab = "Stopping distance (ft)")
+```
+
+9.your session info (as output from R) (10 pt)
+
+```{r}
+print(sessionInfo())
+```
+
+10.Execution of .Rmd file (10 pt)
+
+11.Upload and execution of knitted pdf (10 pt)

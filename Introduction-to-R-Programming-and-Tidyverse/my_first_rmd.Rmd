@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Here are the questions I want to answer in my project. I got my dataset here.
 
-```{r get_data}
+```{r get_data, eval = FALSE}
 head(cars)
 ```
 
